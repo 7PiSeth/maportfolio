@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&family=Raleway:wght@300;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  li {
+    @apply select-none;
+  }
+  body {
+    @apply light-mode dark:dark-mode;
+  }
+  hr {
+    @apply bg-white
+  }
+  .social-link>a{
+    @apply mx-3 md:mx-5 md:hover:opacity-70
+  }
+  #form {
+    @apply flex flex-col w-fit max-md:w-full max-md:items-center
+  }
+  #form > input, textarea {
+    @apply my-1 rounded-3xl w-[450px] px-5 py-3 outline-none text-black max-md:w-[90vw]
+    bg-[#F4F6F8] dark:bg-[#282C34] dark:text-white
+  }
+  #form > button {
+    @apply w-32 my-1 rounded-full p-3 btn-primary text-white mx-auto
+  }
+  #check-out>a{
+    @apply mt-3 active:scale-125 duration-100
+  }
+}
+
+@layer components {
+  .t-g {
+    @apply inline-block text-transparent bg-clip-text bg-gradient-to-r from-[#4ca5ff] to-[#b673f8];
+  }
+  .t-g2 {
+    @apply inline-block text-transparent bg-clip-text bg-gradient-to-r from-[#0f2027] to-[#2c5364];
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500
+  }
+  .dark-mode {
+    @apply bg-[rgb(13,17,23)] text-slate-300;
+  }
+  .light-mode {
+    @apply bg-[rgb(255,255,255)] text-black;
+  }
+}

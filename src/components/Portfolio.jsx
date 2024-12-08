@@ -12,38 +12,38 @@ const projects = [
   {
     id: 0,
     imgSrc: itphnomden,
-    demoLink: 'https://it-phnomden.github.io/it-phnomden/',
+    demoLink: 'https://7piseth.github.io/it-phnomden/',
     sourceLink: 'https://github.com/it-phnomden/it-phnomden'
   }, {
     id: 1,
     imgSrc: calculator,
-    demoLink: 'https://it-phnomden.github.io/easy-calculate/',
+    demoLink: 'https://7piseth.github.io/easy-calculate/',
     sourceLink: 'https://github.com/it-phnomden/easy-calculate'
   }, {
     id: 2,
     imgSrc: portfolio,
-    demoLink: 'https://it-phnomden.github.io/maportfolio/',
+    demoLink: 'https://7piseth.github.io/maportfolio/',
     sourceLink: 'https://github.com/it-phnomden/maportfolio'
   }, {
     id: 3,
     imgSrc: khlakhlouk,
-    demoLink: 'https://it-phnomden.github.io/khla-khlouk/',
+    demoLink: 'https://7piseth.github.io/khla-khlouk/',
     sourceLink: 'https://github.com/it-phnomden/khla-khlouk'
   }
   , {
     id: 4,
     imgSrc: prediction,
-    demoLink: 'https://it-phnomden.github.io/khmer-horoscope/',
+    demoLink: 'https://7piseth.github.io/khmer-horoscope/',
     sourceLink: 'https://github.com/it-phnomden/khmer-horoscope'
   }, {
     id: 5,
     imgSrc: dictionary,
-    demoLink: 'https://it-phnomden.github.io/dictionary/',
+    demoLink: 'https://7piseth.github.io/dictionary/',
     sourceLink: 'https://github.com/it-phnomden/dictionary'
   }, {
     id: 6,
     imgSrc: music,
-    demoLink: 'https://it-phnomden.github.io/jomreang/',
+    demoLink: 'https://7piseth.github.io/jomreang/',
     sourceLink: 'https://github.com/it-phnomden/jomreang'
   }
 ]

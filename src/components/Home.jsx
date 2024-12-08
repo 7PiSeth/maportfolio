@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "./../assets/cover.jpeg";
+import HeroImage from "./../assets/cover.png";
 import wingbank from "./../assets/wingbank.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";

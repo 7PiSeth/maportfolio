@@ -1,11 +1,51 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from 'react';
 import HeroImage from "./../assets/cover.jpeg";
 import wingbank from "./../assets/wingbank.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import audioSource from '../assets/sovannaphume.mp3'; // Ensure you have an audio file in this path
+
 
 const Home = () => {
+  const audioRef = useRef(null);
+  
+  // State to track if the audio is currently playing.
+  const [isPlaying, setIsPlaying] = useState(false);
+  
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  const handleClick = () => {
+    setIsAnimating(!isAnimating);
+    // You can set a timeout to remove the class after the animation finishes
+    
+  };
+
+  // Function to handle the play/stop toggle.
+  const handlePlayStop = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        // If playing, stop the audio and reset its position.
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+        setIsPlaying(false);
+      } else {
+        // If stopped, play the audio.
+        audioRef.current.play();
+        setIsPlaying(true);
+      }
+    }
+  };
+  
+  // Effect to clean up the audio element and reset state on component unmount.
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+    };
+  }, []);
+
   return (
     <div
       name="home"
@@ -44,10 +84,15 @@ const Home = () => {
         </div>
       </div>
       <div>
+        <audio ref={audioRef} src={audioSource}></audio>
       <LazyLoadImage
-          className="md:w-[800px] w-screen mx-auto rounded-2xl dark:bg-[rgb(22,27,34)] dark:text-[#A3B3BC]"
+          className={`md:w-[800px] cursor-pointer w-screen mx-auto rounded-2xl dark:bg-[rgb(22,27,34)] dark:text-[#A3B3BC] ${isAnimating ? 'animate-pulse' : ''}`}
           src={HeroImage}
           alt="My Profile"
+          onClick={() => {
+            handleClick();
+            handlePlayStop();
+          }}
         />
       </div>
     </div>

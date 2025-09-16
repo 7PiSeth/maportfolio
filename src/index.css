@@ -9,12 +9,13 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
+    
   }
   li {
     @apply select-none;
   }
   body {
-    @apply light-mode dark:dark-mode;
+    @apply light-mode dark:dark-mode select-none;
   }
   hr {
     @apply bg-white

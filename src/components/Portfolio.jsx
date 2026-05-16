@@ -1,11 +1,14 @@
 import React from "react";
 import calculator from "../assets/portfolio/calculator.png";
-import itphnomden from "../assets/portfolio/it-phnomden.jpg";
+import itphnomden from "../assets/portfolio/it-phnomden.png";
 import portfolio from "../assets/portfolio/portfolio.png";
 import khlakhlouk from "../assets/portfolio/khlakhlouk.png";
 import dictionary from "../assets/portfolio/dictionary.png";
 import music from "../assets/portfolio/music.png";
 import prediction from "../assets/portfolio/prediction.png";
+import devutil from "../assets/portfolio/dev-util.png";
+import oukchaktrang from "../assets/portfolio/ouk-chaktrang.png";
+import khmerfonts from "../assets/portfolio/khmer-font.png";
 import { MdPermContactCalendar } from "react-icons/md"
 
 const projects = [
@@ -45,6 +48,21 @@ const projects = [
     imgSrc: music,
     demoLink: 'https://7piseth.github.io/jomreang/',
     sourceLink: 'https://github.com/7piseth/jomreang'
+  }, {
+    id: 7,
+    imgSrc: devutil,
+    demoLink: 'https://7piseth.github.io/dev-util/',
+    sourceLink: 'https://github.com/7piseth/dev-util'
+  }, {
+    id: 8,
+    imgSrc: oukchaktrang,
+    demoLink: 'https://7piseth.github.io/ouk-chaktrang/',
+    sourceLink: 'https://github.com/7piseth/ouk-chaktrang'
+  }, {
+    id: 9,
+    imgSrc: khmerfonts,
+    demoLink: 'https://7piseth.github.io/khmer-font/',
+    sourceLink: 'https://github.com/7piseth/khmer-font'
   }
 ]
 
@@ -62,8 +80,8 @@ const Portfolio = () => {
             <p className="text-xl font-extrabold w-fit ">Portfolio</p>
           </div>
           <p className="text-lg indent-7 p-3 pb-0">
-            Here are some projects that have done before. If you want to see
-            the source code and how it works you can check them out below.
+            Here are some of the projects I have worked on, showcasing my experience in software development and modern application design. You can explore the source code and project details below to learn more about the technologies and implementations used.
+
           </p>
         </div>
         <div data-aos="fade-up" data-aos-offset="100"

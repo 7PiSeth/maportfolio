@@ -16,14 +16,7 @@ const AboutMe = () => {
           <p className="text-xl font-extrabold w-fit">About Me</p>
         </div>
         <p className="text-lg indent-7 p-3 pb-0">
-          I'm a software developer with over three years of experience in
-          developing and maintaining software applications. I have experience in
-          designing and implementing software solutions for various clients and
-          projects. I'm proficient in Java and Javascript language and I have
-          ability to code on other language such as C#, PHP, Dart, Swift and
-          Tyepscript. I graduated from Royal University of Phnom Penh with a
-          degree in Computer Science. Currently, I work at Wing bank as a
-          Back-End developer.
+          Backend and integration developer with 6+ years of experience building secure and scalable banking APIs and enterprise integrations using Java Spring Boot technologies. Experienced in RESTful APIs, partner bank integrations, Bakong/NBC services, cross-border payment systems, Oracle databases, Docker, and CI/CD environments. Strong understanding of SDLC, troubleshooting, and production support in banking systems.
         </p>
         <h1 className="p-3 text-xl font-extrabold w-fit">
           Education Background

@@ -51,7 +51,7 @@ const Footer = () => {
         </a>
       </div>
       <p class="md:mr-5 text-center">
-        Copyright © 2024 <b>PiSeth</b> | All Rights Reserved
+        Copyright © 2026 <b>PiSeth</b> | All Rights Reserved
       </p>
     </div>
   );

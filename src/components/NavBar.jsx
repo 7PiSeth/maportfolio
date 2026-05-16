@@ -66,7 +66,7 @@ const NavBar = () => {
         </h1>
       </Link>
       <a
-        href="https://www.figma.com/file/z1s6F1bjErTmMv7s9jzT1S/PiSeth-Seam?type=design&node-id=0-1&t=08YHlUC7NI5ILpjq-0"
+        href="https://worldcrunch.com/assets/uploads/2025/03/monkeying-around.jpg.webp"
         target="_blank"
         rel="noopener noreferrer"
         className={`max-md:hidden absolute left-24 lg:left-28 active:scale-150 transform duration-300
@@ -101,7 +101,7 @@ const NavBar = () => {
 
       <div className="hidden max-md:flex items-center">
         <a
-          href="https://www.figma.com/file/z1s6F1bjErTmMv7s9jzT1S/PiSeth-Seam?type=design&node-id=0-1&t=08YHlUC7NI5ILpjq-0"
+          href="https://worldcrunch.com/assets/uploads/2025/03/monkeying-around.jpg.webp"
           target="_blank"
           rel="noopener noreferrer"
           className={`active:scale-150 transform duration-300

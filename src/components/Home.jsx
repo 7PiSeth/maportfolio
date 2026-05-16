@@ -66,10 +66,8 @@ const Home = () => {
           />
         </div>
         <p className="md:pr-7 indent-7 text-lg">
-          I have over 3 years of experience building and desgining core banking
-          system using Java and Spring framework. Currently, I love to work on
-          web and mobile application using technologies like ReactJs,
-          TailwindCSS, NodeJs, Flutter. To know me more let's scroll down 😉
+          I am a software developer with over 6 years of experience designing and developing enterprise and core banking systems using Java and Spring technologies. My expertise includes backend APIs, banking integrations, and scalable microservices architecture. I am also passionate about modern web and mobile development using ReactJS, Tailwind CSS, Node.js, and Flutter to build clean, user-focused applications.
+
         </p>
         <div>
           <Link
